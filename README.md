@@ -12,7 +12,7 @@ A backend application that integrates with Safaricom Daraja API to initiate and 
 * Transaction tracking
 * Error handling and logging
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 * Safaricom Daraja API credentials:
 
@@ -49,7 +49,7 @@ POST /api/mpesa/callback
 
 This endpoint receives payment confirmation from Safaricom.
 
-## 🔄 STK Push Flow
+## STK Push Flow
 
 1. User submits phone number and amount
 2. Backend generates access token
@@ -66,6 +66,3 @@ GET /oauth/v1/generate?grant_type=client_credentials
 Use Basic Auth with Consumer Key and Consumer Secret.
 
 
-
-sing logic
-* Or complete working project 🚀
